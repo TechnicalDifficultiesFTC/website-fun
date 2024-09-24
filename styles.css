@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #3687b6;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    text-align: center;
+    margin-top: 2em;
+}
+
+button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+#cat-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#fox-dog-gif {
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    height: auto;
+}
